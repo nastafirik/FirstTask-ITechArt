@@ -1,0 +1,156 @@
+article { 
+    height: auto;
+    width: auto;
+} 
+
+h2{
+    font-family: "PT Sans";
+    padding-left: 5%;
+    color: aliceblue;
+}
+
+.web_design {
+     height: 30%;
+     padding-top: 50px;
+     padding-bottom: 60px;
+     background-color:rgb(144, 142, 243); 
+     width:100%;  
+     overflow: auto;
+}
+
+div.iphone{
+   width: 500px; 
+   overflow: hidden;
+}
+
+.iphone{
+  width: 40%;
+  padding-left: 5%;
+  float: left;
+  z-index: 1;
+}
+
+.iphone_text{
+  font-size: 20px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+
+div.John_Henry{
+   width: 500px; 
+   overflow: hidden; 
+}
+
+.John_Henry{
+  width: 40%;
+  margin-left: auto;
+  padding-right: 5%;
+  float: right;
+  overflow: hidden; 
+  z-index: 1;
+}
+
+.icons {
+ height: 30%;
+ overflow: auto;
+ padding-top: 50px;
+ padding-bottom: 60px;
+ background-color:#58d99c; 
+ width:100%;  
+}
+
+div.icon_coffee{
+    width: 500px; 
+    overflow: hidden;    
+}
+
+.icon_coffee{
+    width: 40%;
+    padding-left: 5%;
+    float: left;
+    z-index: 1;
+}
+
+div.icon_tv{
+    width: 500px; 
+    overflow: hidden;    
+}
+
+.icon_tv{
+    width: 40%;
+    margin-left: auto;
+    padding-right: 5%;
+    float: right;
+    overflow: hidden; 
+    z-index: 1;
+}
+
+
+.illustration {
+    height: 30%;
+    overflow: auto;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color:#f4776d; 
+    width:100%;   
+}
+
+div.bird{
+    width: 40%;
+    padding-left: 5%;
+    float: left;
+    z-index: 1;   
+}
+
+div.egg{
+    width: 500px; 
+    overflow: hidden;    
+}
+
+.egg{
+    width: 40%;
+    margin-left: auto;
+    padding-right: 5%;
+    float: right;
+    overflow: hidden; 
+    z-index: 1;  
+}
+
+.miscellaneous {
+    height: 30%;
+    overflow: auto;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color:#edca52; 
+    width:100%;   
+ 
+}
+
+div.plane{
+    width: 40%;
+    padding-left: 5%;
+    float: left;
+    z-index: 1;   
+}
+
+div.plane{
+    width: 500px; 
+    overflow: hidden;    
+}
+
+div.box{
+    width: 500px; 
+    overflow: hidden;    
+}
+
+.box{
+    width: 40%;
+    margin-left: auto;
+    padding-right: 5%;
+    float: right;
+    overflow: hidden; 
+    z-index: 1; 
+}

@@ -1,0 +1,97 @@
+header{ 
+width: 100%; 
+height: auto; 
+}
+
+.icon-search:before {
+    font-size: 25px;
+    content: "\e986";
+    float: right
+    
+}
+.search{
+    float: right;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+nav { 
+margin: 0 auto; 
+padding-top: 12px;
+padding-right: 3%;
+overflow: hidden; 
+} 
+
+.logo-box { 
+float: left; 
+margin: 10px 20px; 
+padding-left: 5%;
+} 
+
+.logo { 
+margin: auto; 
+height: 70px; 
+position: relative; 
+float: left; 
+width:10%; 
+left: 200px; 
+} 
+
+ul {
+margin: 0; 
+margin-right: 25px; 
+padding-left: 0; 
+
+float: right; 
+height: 70px; 
+line-height: 70px; 
+text-align:right; 
+} 
+a { 
+text-decoration: none; 
+display: inline-block; 
+position: relative; 
+} 
+li a { 
+color: #868686; 
+} 
+li { 
+display: inline-block; 
+margin-left: 25px; 
+} 
+
+
+
+
+.logo-box:after { 
+font-family: "PT Sans";
+content: "BLUEBOX"; 
+font-size: 35px; 
+
+color: rgb(49, 51, 62); 
+font-weight: bold; 
+line-height: 1.2; 
+text-align: left; 
+position: relative; 
+
+} 
+
+.grey_line { 
+height:113px; 
+padding-top: 15px;
+background-color: #e2e7ed; 
+font-weight:bold; 
+} 
+
+h1{
+font-family:  "PT Sans";
+padding-left: 7%;
+width: 30%;
+    
+}
+
+.header_navigate{
+    float: right;
+    padding-right: 10%;
+    display: inline;
+}

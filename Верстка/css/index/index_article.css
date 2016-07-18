@@ -1,0 +1,67 @@
+article { 
+    height: 100%; 
+    width: auto; 
+    padding-bottom: 1000px; 
+} 
+
+.login { 
+    color: rgb(42, 46, 57); 
+    text-align: left; 
+    position:relative; 
+    box-sizing: 15em; 
+    float: left; 
+    width: 50%; 
+} 
+
+.width_form{
+    width: 80%;
+}
+.width_text{
+    width: 80%;
+    height: 300px;
+    resize: none;  
+}
+
+.map { 
+    padding-top: 20px;
+    padding-right: 5%;
+    position: relative; 
+    float: right; 
+    width: 40%; 
+} 
+
+.text2{
+    font-size: 20px;
+    font-family: "PTSans";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+    float: left;
+    padding-left: 40px;
+}
+
+.icon-location2:before {
+    content: "\e948";
+}
+
+
+h2{
+    padding-left: 58px;  
+}
+
+div.content { 
+    padding-left: 7%;
+} 
+
+.button{
+  font-size: 22px;
+  font-family: "PTSans";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 90px;
+  border-radius: 4px;
+  background-color: rgb(0, 174, 255);
+  width: 221px;
+  height: 60px;
+}
