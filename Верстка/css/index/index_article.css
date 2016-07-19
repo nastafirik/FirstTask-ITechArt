@@ -56,9 +56,10 @@ div.text{
 }
 
 
-h4{
+div.map h4{
     color: rgb(11, 11, 11);
     font-size: 20px;
+    padding-left: 13%;
       
     
 }
@@ -95,6 +96,8 @@ section {
 .BlueBox_Company_text{
     color: rgb(62, 62, 65);
     font-size: 15px;
+    line-height: 25px;
+    white-space: pre;
     width: 40%;
 }
 
