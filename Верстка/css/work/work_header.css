@@ -1,8 +1,10 @@
 header{ 
-    width: 100%; 
+    width: auto; 
     height: auto; 
     padding-bottom: 3%;
-   
+    margin-top: 4%;
+    
+
 }
 
 .icon-search:before {
@@ -13,15 +15,17 @@ header{
 }
 .search{
     float: right;
-    padding-top: 20px;
-    padding-left: 100px;
+   
 }
 
 header nav { 
     margin: 0 auto; 
     padding-top: 1%;
     padding-right: 3%;
+    padding-left: 10%;
     overflow: hidden;
+    float: left;
+    width: auto;
 
 } 
 
@@ -88,7 +92,12 @@ h1{
     
 }
 
-.field_search{
-    padding-top: 1%;
+div.field_search{
     float: right;
+    width: 15%;
+    padding-top: 2.7%;
+}
+
+.input_search{
+    width: 60%;
 }
