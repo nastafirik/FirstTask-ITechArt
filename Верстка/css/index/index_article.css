@@ -1,7 +1,9 @@
 article { 
     height: 100%; 
-    width: auto; 
+    width: 100%; 
     padding-bottom: 1000px; 
+    min-width: inherit;
+    
 } 
 
 .login { 
@@ -15,6 +17,7 @@ article {
 
 .width_form{
     width: 80%;
+    height: 40px;
 }
 .width_text{
     width: 80%;
@@ -22,17 +25,29 @@ article {
     resize: none;  
 }
 
+div.text{
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    width: 45%;
+}
+
 .map { 
-    padding-top: 20px;
-    padding-right: 5%;
+    padding-right: 10%;
     position: relative; 
     float: right; 
+    min-width: 30%;
     width: 40%; 
 } 
 
+
+.image_map{
+    width: 80%;
+     padding-right: 10%;
+}
 .text2{
-    font-size: 20px;
-    font-family: "PTSans";
+    font-size: 100%;
+    font-family: "PT Sans";
     color: rgb(0, 0, 0);
     font-weight: bold;
     line-height: 1.2;
@@ -40,28 +55,54 @@ article {
     padding-left: 40px;
 }
 
-.icon-location2:before {
-    content: "\e948";
+
+h4{
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+      
+    
+}
+.icon-location:before {
+    content: "\e947";
 }
 
 
 h2{
-    padding-left: 58px;  
+    color: rgb(87, 88, 92);
+    font-size: 35px;
+   
 }
 
-div.content { 
-    padding-left: 7%;
+section { 
+    padding-left: 10%;
+    width: 100%;
+    
 } 
 
 .button{
-  font-size: 22px;
-  font-family: "PTSans";
+  font-size: 90%;
+  font-family: "PT Sans";
   color: rgb(255, 255, 255);
-  line-height: 1.2;
+  border: none;
   text-align: center;
   margin-top: 90px;
-  border-radius: 4px;
+  border-radius: 1px;
   background-color: rgb(0, 174, 255);
-  width: 221px;
+  width: 40%;
   height: 60px;
 }
+
+.BlueBox_Company_text{
+    color: rgb(62, 62, 65);
+    font-size: 15px;
+    width: 40%;
+}
+
+article header{
+    height:auto; 
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    background-color: #e2e7ed; 
+    font-weight:bold; 
+} 
+
