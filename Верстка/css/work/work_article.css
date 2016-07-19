@@ -184,9 +184,6 @@ div.egg{
  
 }
 
-
-
-
 .plane{
     width: 40%;
     padding-left: 5%;
@@ -223,7 +220,7 @@ div.box{
 
 div.header_navigate{
     width: 50%;
-    float: right;
+    margin-left: 40%;
     padding-right: 10%;
     padding-top: 1px;
 }

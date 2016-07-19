@@ -17,17 +17,19 @@ footer nav{
 footer ul li + li:before{
     content:"|";
     padding-right: 20px;
+    color: #868686;
 }
 
 .footer_menu{
     padding-top: 3%;
     font-family: "PT Sans";
     float: left;
+    display: inline;
     padding-left: 10%;
 }
 
 address{
-   margin-left: 10%;
+   margin-left: 6%;
    padding-top: 70px;
    color: #868686; 
 }
